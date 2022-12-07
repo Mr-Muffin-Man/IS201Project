@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>From-Scratch Page</title>
+        <link rel="stylesheet" href="css/tableaustyles.css">
+        <link rel="stylesheet" href="css/tableaulayout.css">
+    </head>
+    <body class="background">
+        
+        <!--Page Title-->
+        <div class="common header">
+            <h1 id="top" class="headertextbg">HTML Coding Skills Demonstration Webpage</h1>
+            <h2>Created From Scratch</h2>
+        </div>
+        
+        <!--Unordered List Embedded in Ordered List-->
+        <div class="common pgsec">
+            <h2 class="sectiontextbg">Page Sections</h2>
+            <p>&nbsp;</p>
+            <ol class="justify">
+                <li><a href="#photos">Image Demo</a>
+                    <ul>
+                        <li>A photo from my second trip to British Columbia, Canada in 2019</li>
+                        <li>A photo from my latest trip to Yellowstone National Park in 2020</li>
+                    </ul>
+                </li>
+                <li><a href="#vid">Video Demo</a>
+                    <ul>
+                        <li>A YouTube video of a relaxing, instrumental song called "Mood Swings" by Jazz Logic</li>
+                    </ul>
+                </li>
+                <li><a href="#tab">Tableau Dashboard Demo</a>
+                    <ul>
+                        <li>A live Tableau dashboard that includes data about obesity levels in various counties within the U.S.A. (not my own work)</li>
+                    </ul>
+                </li>
+                <li><a href="#link">External Link to Resume Demo</a>
+                    <ul>
+                        <li>Takes the user to an external link which opens up in a new tab</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <!--Images-->
+        <div class="common img">
+            <h2 id="photos" class="sectiontextbg">Image Demo</h2>
+            <img src="VanDusen_Gardens_BC_2019.jpg" height="500" alt="VanDusen Botanical Garden, Vancouver, BC, Canada (2019)"> <br>
+            VanDusen Botanical Garden in Vancouver, British Columbia, Canda (2019) 
+            <br> <br>
+            <img src="Yellowstone_Waterfall_2020.jpg" height="500" alt="Yellowstone River, Yellowstone National Park, Wyoming (2020)"> <br>
+            Yellowstone River, Yellowstone National Park, Wyoming (2020)
+        </div>
+        
+        <!--YouTube Video-->
+        <div class="common vid">
+            <h2 id="vid" class="sectiontextbg">Video Demo</h2>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ht1OiLIdzes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <p>"Mood Swings" by Jazz Logic</p>
+        </div>
+        
+        <!--Tableau Dashboard-->
+        <div class="common tab">
+            <h2 id="tab" class="sectiontextbg">Tableau Dashboard Demo</h2>
+            <div class='tableauPlaceholder' id='viz1669825242383' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                    <img alt='Is Your County Obese? Select your county to see how it compares with other counties in the country' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Regional_16698249194270&#47;Obesity&#47;1_rss.png' style='border: none'/>
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
+                    <param name='embed_code_version' value='3'/>
+                    <param name='site_root' value=''/>
+                    <param name='name' value='Regional_16698249194270&#47;Obesity'/>
+                    <param name='tabs' value='no' /><param name='toolbar' value='yes'/>
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Regional_16698249194270&#47;Obesity&#47;1.png'/> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes'/>
+                    <param name='display_spinner' value='yes'/>
+                    <param name='display_overlay' value='yes'/>
+                    <param name='display_count' value='yes'/>
+                    <param name='language' value='en-US'/>
+                </object>
+            </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1669825242383');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+                else { vizElement.style.width='100%';vizElement.style.height='877px';}                     
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                 vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+        </div>
+        
+        <!--Navigation to Resume-->
+        <div class="common ext">
+            <h2 id="link" class="sectiontextbg">External Link to Resume Demo</h2>
+            <p>Visit my resume <a href="index.html" target="_blank" title="Sterling Nebeker's Resume">here</a>.</p>
+        </div>
+        <div class="common footer">
+            <a href="#top">Return to Top of Page</a>
+        </div>
+    </body>
+</html>

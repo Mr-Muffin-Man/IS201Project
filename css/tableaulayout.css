@@ -1,0 +1,49 @@
+.common {
+    position: absolute;
+    background-color: steelblue;
+}
+.header {
+    top: 10px;
+    left: 5px;
+    right: 5px;
+    height: 175px;
+}
+.pgsec {
+    top: 195px;
+    left: 5px;
+    right: 5px;
+    height: 365px;
+}
+.img {
+    top: 575px;
+    left: 5px;
+    right: 5px;
+    height: 1210px;
+}
+.vid {
+    top: 1800px;
+    left: 5px;
+    right: 5px;
+    height: 490px;
+}
+.tab {
+    top: 2305px;
+    left: 5px;
+    right: 5px;
+    height: 1150px;
+}
+.ext {
+    top: 3470px;
+    left: 5px;
+    right: 5px;
+    height: 210px;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 30px;
+    position: fixed;
+    background-color: lightsteelblue;
+    padding-top: 10px;
+}
